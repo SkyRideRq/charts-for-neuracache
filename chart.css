@@ -1,0 +1,100 @@
+.spacer{
+    height: 150vh;
+}
+.container--chart
+{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 340px;
+    align-items: flex-end;
+}
+.percentage
+{
+    height: 150px;
+    width: 23px;
+    border-radius: 2px;
+    background: rgba(114,56,235,1);
+    background: -moz-linear-gradient(top, rgba(114,56,235,1) 0%, rgba(219,208,246,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(114,56,235,1)), color-stop(100%, rgba(219,208,246,1)));
+    background: -webkit-linear-gradient(top, rgba(114,56,235,1) 0%, rgba(219,208,246,1) 100%);
+    background: -o-linear-gradient(top, rgba(114,56,235,1) 0%, rgba(219,208,246,1) 100%);
+    background: -ms-linear-gradient(top, rgba(114,56,235,1) 0%, rgba(219,208,246,1) 100%);
+    background: linear-gradient(to bottom, rgba(114,56,235,1) 0%, rgba(219,208,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7238eb', endColorstr='#dbd0f6', GradientType=0 );
+}
+.percentage--one
+{
+    max-height: 100%;
+    
+}
+.percentage--two
+{
+    max-height: 133px;
+    background:#E0D5F9;
+}
+.percentage--three
+{
+    max-height: 111px;
+    
+}
+.percentage--four
+{
+    max-height: 87px;
+    
+}
+.percentage--five
+{
+    max-height: 65px;
+}
+.percentage--six
+{
+    max-height: 55px;
+}
+.percentage--seven
+{
+    max-height: 45px;
+}
+.percentage--eight
+{
+    max-height: 35px;
+}
+.percentage--nine
+{
+    max-height: 25px;
+}
+.percentage--ten
+{
+    max-height: 20px;
+}
+.percentage--eleven
+{
+    max-height: 15px;
+}
+.percentage--twelve
+{
+    max-height: 10px;
+}
+
+.percentage
+{
+    -webkit-transition: max-height 1s; 
+    -moz-transition: max-height 1s; 
+    -ms-transition: max-height 1s; 
+    -o-transition: max-height 1s; 
+    transition: max-height 1s;  
+    overflow: hidden;
+    /* do animacji */
+    /* max-height: 0; */
+}
+.percentage:hover{
+    height: 500px;
+}
+.faded-colour{
+    background: #EFEBFB;
+}
+.animate{
+    max-height: 0;
+}
+
+
