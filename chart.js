@@ -39,8 +39,13 @@ document.addEventListener( 'DOMContentLoaded', () => {
     ),500)
 
     handler()
-    
-    window.addEventListener( 'scroll', handler )
+    //important check!
+    window.addEventListener( 'scroll', () => {
+        if (!handlerTriggered) {
+          handlerTriggered = true;
+          handler();
+        }
+      } )
 });
 
 const raf = 
